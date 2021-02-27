@@ -8,8 +8,8 @@ Type=simple
 Restart=on-failure
 RestartSec=10
 User=username
-WorkingDirectory=/home/[username]/Valheim
-ExecStart=/home/[username]/Valheim/start_valheim.sh
+WorkingDirectory=/home/du7/Valheim
+ExecStart=/home/du7/Valheim/start_valheim.sh
 
 [Install]
 WantedBy=multi-user.target
